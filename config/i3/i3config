@@ -187,7 +187,7 @@ exec_always picom --experimental-backends
 exec_always ulauncher
 
 # FEH
-exec_always feh --bg-scale /home/niteshk/Pictures/Wallpapers/landscape1.jpg
+exec_always feh --bg-scale $HOME/Pictures/Wallpapers/landscape2.jpg
 
 # Round corners & gaps
 for_window [class="^.*"] border pixel 0
@@ -199,12 +199,12 @@ gaps inner 8
 gaps outer 8
 
 # POLYBAR LAUNCH SCRIPT
-exec_always --no-startup-id /home/niteshk/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # SCREENSHOT SCRIPT
-bindsym Print exec --no-startup-id maim "/home/niteshk/Pictures/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/niteshk/Pictures/$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "/home/niteshk/Pictures/$(date)"
+bindsym Print exec --no-startup-id maim "$HOME/Pictures/$(date)"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$HOME/Pictures/$(date)"
+bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/$(date)"
 
 # NUMLOCK OFF
 exec_always --no-startup-id numlockx on
