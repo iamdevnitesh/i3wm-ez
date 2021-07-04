@@ -187,7 +187,7 @@ exec_always picom --experimental-backends
 exec_always ulauncher
 
 # FEH
-exec_always feh --bg-scale $HOME/Pictures/Wallpapers/landscape2.jpg
+exec_always feh --bg-scale $HOME/Pictures/Wallpapers/landscape1.jpg
 
 # Round corners & gaps
 for_window [class="^.*"] border pixel 0
