@@ -5,7 +5,6 @@ sudo apt update && sudo apt upgrade -y
 # Installing kitty & setting it up
 sudo apt install kitty -y
 sudo update-alternatives --config x-terminal-emulator
-cp /usr/share/doc/kitty/examples/kitty.conf $HOME/.config/kitty/
 cp $HOME/Downloads/i3wm-ubuntu/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
 
 # Installing vim
