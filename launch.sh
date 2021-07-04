@@ -26,6 +26,9 @@ sudo apt install i3-gaps -y
 
 # Polybar Install
 cd $HOME/Downloads
+git clone https://github.com/stark/siji && cd siji
+./install.sh
+cd $HOME/Downloads
 git clone --recursive https://github.com/polybar/polybar
 cd $HOME/Downloads/polybar
 mkdir build && cd build
