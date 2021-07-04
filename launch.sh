@@ -48,6 +48,7 @@ sudo apt install feh numlockx ttf-unifont -y
 # Replacing files
 mkdir $HOME/Pictures/Wallpapers
 cp $HOME/Downloads/i3wm-ubuntu/Wallpapers/landscape1.jpg $HOME/Pictures/Wallpapers/landscape1.jpg
+mkdir $HOME/.config/i3
 cp $HOME/Downloads/i3wm-ubuntu/config/i3/config $HOME/.config/i3/config
 mkdir $HOME/.config/polybar
 mkdir $HOME/.config/picom
