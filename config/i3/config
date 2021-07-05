@@ -187,7 +187,8 @@ exec_always picom --experimental-backends
 exec_always ulauncher
 
 # FEH
-# Add * in place of image name to randomize from folder
+# ucomment the below comment by removing # in order to get random wallpaper at every reload of i3
+# exec_always --no-startup-id /usr/bin/feh --randomize --bg-fill $HOME/Pictures/Wallpapers/*
 exec_always feh --bg-scale $HOME/Pictures/Wallpapers/landscape1.jpg
 
 # Round corners & gaps
