@@ -187,6 +187,8 @@ exec_always picom --experimental-backends
 exec_always ulauncher
 
 # FEH
+# Comment below randomizes the wallpaper
+# exec --no-startup-id feh --randomize --bg-scale $HOME/Pictures/Wallpapers/*
 exec_always feh --bg-scale $HOME/Pictures/Wallpapers/landscape1.jpg
 
 # Round corners & gaps
