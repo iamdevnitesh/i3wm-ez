@@ -11,6 +11,9 @@ cp $HOME/Downloads/i3wm-popOS/config/kitty/kitty.conf $HOME/.config/kitty/kitty.
 # Installing vim
 sudo apt install vim -y
 
+# Neofetch
+sudo apt install neofetch -y
+
 # ulauncher install
 sudo add-apt-repository ppa:agornostal/ulauncher -y
 sudo apt update -y
