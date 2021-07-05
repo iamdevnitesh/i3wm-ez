@@ -5,7 +5,6 @@ sudo apt update && sudo apt upgrade -y
 # Installing kitty & setting it up
 sudo apt install kitty -y
 sudo update-alternatives --config x-terminal-emulator
-echo " 2:$1"
 mkdir $HOME/.config/kitty
 cp $HOME/Downloads/i3wm-popOS/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
 
