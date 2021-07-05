@@ -50,12 +50,12 @@ sudo apt install feh numlockx ttf-unifont -y
 
 # Replacing files
 mkdir $HOME/Pictures/Wallpapers
-cp $HOME/Downloads/i3wm-ubuntu/Wallpapers/landscape1.jpg $HOME/Pictures/Wallpapers/landscape1.jpg
+cp $HOME/Downloads/i3wm-popOS/Wallpapers/landscape1.jpg $HOME/Pictures/Wallpapers/landscape1.jpg
 mkdir $HOME/.config/i3
-cp $HOME/Downloads/i3wm-ubuntu/config/i3/config $HOME/.config/i3/config
+cp $HOME/Downloads/i3wm-popOS/config/i3/config $HOME/.config/i3/config
 mkdir $HOME/.config/polybar
 mkdir $HOME/.config/picom
-cp $HOME/Downloads/i3wm-ubuntu/config/polybar/config $HOME/.config/polybar/config
-cp $HOME/Downloads/i3wm-ubuntu/config/polybar/launch.sh $HOME/.config/polybar/launch.sh
+cp $HOME/Downloads/i3wm-popOS/config/polybar/config $HOME/.config/polybar/config
+cp $HOME/Downloads/i3wm-popOS/config/polybar/launch.sh $HOME/.config/polybar/launch.sh
 chmod +x $HOME/.config/polybar/launch.sh
-cp $HOME/Downloads/i3wm-ubuntu/config/picom/picom.conf $HOME/.config/picom/picom.conf
+cp $HOME/Downloads/i3wm-popOS/config/picom/picom.conf $HOME/.config/picom/picom.conf
