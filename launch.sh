@@ -57,6 +57,5 @@ mkdir $HOME/.config/polybar
 mkdir $HOME/.config/picom
 cp $HOME/Downloads/i3wm-ubuntu/config/polybar/config $HOME/.config/polybar/config
 cp $HOME/Downloads/i3wm-ubuntu/config/polybar/launch.sh $HOME/.config/polybar/launch.sh
-sudo chmod +x launch.sh 
-chmod +x launch.sh
+chmod +x $HOME/.config/polybar/launch.sh
 cp $HOME/Downloads/i3wm-ubuntu/config/picom/picom.conf $HOME/.config/picom/picom.conf
