@@ -26,13 +26,7 @@ Open Terminal
 
 ### STEP 6
 
-    ./launch.sh
-
-
-### WHILE INSTALLING YOU MIGHT GET A PROMPT OF SELECTING DEFAULT TERMINAL.
-<br>
-
-### **I Would suggest selecting "2" i.e kitty terminal**
+    ./launch.sh < input.txt
 
 <br>
 <br>
