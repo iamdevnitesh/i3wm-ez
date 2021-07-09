@@ -3,6 +3,7 @@
 sudo dnf install kitty -y
 gsettings set org.gnome.desktop.default-applications.terminal exec kitty
 mkdir $HOME/.config/kitty
+cp $HOME/Downloads/i3wm-ez/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
 
 # i3
 sudo dnf install i3-gaps -y
