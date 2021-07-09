@@ -1,5 +1,5 @@
-# i3wm-popOS
-A script that installs i3-gaps on your PopOS Machine.
+# i3wm-ez
+A script that installs i3-gaps on your Linux Machine.
 
 ## **Installation Steps**
 <br>
