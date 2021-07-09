@@ -10,9 +10,9 @@ sudo dnf install i3-gaps -y
 # POLYBAR
 sudo dnf install unifont-fonts -y
 sudo dnf install xorg-x11-apps -y
-sudo dnf install -y gcc-c++ clang git cmake @development-tools python3-sphinx python3-packaging -y
-sudo dnf install -y cairo-devel xcb-util-devel libxcb-devel xcb-proto xcb-util-image-devel xcb-util-wm-devel -y
-sudo dnf install -y xcb-util-xrm-devel xcb-util-cursor-devel alsa-lib-devel pulseaudio-libs-devel jsoncpp-devel libmpdclient-devel libcurl-devel wireless-tools-devel libnl3-devel -y
+sudo dnf install -y gcc-c++ clang git cmake @development-tools python3-sphinx python3-packaging
+sudo dnf install -y cairo-devel xcb-util-devel libxcb-devel xcb-proto xcb-util-image-devel xcb-util-wm-devel
+sudo dnf install -y xcb-util-xrm-devel xcb-util-cursor-devel alsa-lib-devel pulseaudio-libs-devel jsoncpp-devel libmpdclient-devel libcurl-devel wireless-tools-devel libnl3-devel
 sudo dnf install polybar -y
 
 # PICOM
