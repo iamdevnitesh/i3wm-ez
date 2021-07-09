@@ -30,7 +30,7 @@ sudo dnf install feh numlockx
 
 # Replacing files
 mkdir $HOME/Pictures/Wallpapers
-cp $HOME/Downloads/i3wm-ez/Wallpapers/landscape1.jpg $HOME/Pictures/Wallpapers/landscape1.jpg
+cp -r $HOME/Downloads/i3wm-ez/Wallpapers/ $HOME/Pictures/
 mkdir $HOME/.config/i3
 cp $HOME/Downloads/i3wm-ez/config/i3/config $HOME/.config/i3/config
 mkdir $HOME/.config/polybar
