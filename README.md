@@ -14,7 +14,7 @@ Open Terminal
 
 ### STEP 3
 
-    git clone https://github.com/iamcodernitesh/i3wm-popOS
+    git clone https://github.com/iamcodernitesh/i3wm-ez
 
 ### STEP 4
 
@@ -26,7 +26,7 @@ Open Terminal
 
 ### STEP 6
 
-    ./launch.sh < input.txt
+    ./launch.sh < 2
 
 <br>
 <br>
