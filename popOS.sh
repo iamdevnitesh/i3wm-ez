@@ -6,7 +6,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install kitty -y
 sudo update-alternatives --config x-terminal-emulator
 mkdir $HOME/.config/kitty
-cp $HOME/Downloads/i3wm-popOS/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
+cp $HOME/Downloads/i3wm-ez/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
 
 # Installing vim
 sudo apt install vim -y
