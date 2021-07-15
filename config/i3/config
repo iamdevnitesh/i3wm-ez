@@ -213,3 +213,6 @@ exec_always --no-startup-id numlockx on
 
 # CURSOR FIX
 exec_always xsetroot -cursor_name left_ptr &
+
+bindsym $mod+u exec setxkbmap us;
+bindsym $mod+c exec setxkbmap us -variant colemak_dh
