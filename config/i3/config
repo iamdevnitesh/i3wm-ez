@@ -183,13 +183,13 @@ bindsym $mod+r mode "resize"
 
 exec_always picom --experimental-backends
 
-# ULAUNCHER
-exec_always ulauncher
+# albert
+exec_always albert
 
 # FEH
 # ucomment the below comment by removing # in order to get random wallpaper at every reload of i3
-# exec_always --no-startup-id /usr/bin/feh --randomize --bg-fill $HOME/Pictures/Wallpapers/*
-exec_always feh --bg-scale $HOME/Pictures/Wallpapers/landscape1.jpg
+exec_always --no-startup-id /usr/bin/feh --randomize --bg-fill $HOME/.config/i3/gruvbox/*
+# exec_always feh --bg-scale $HOME/Pictures/Wallpapers/xyz.jpg
 
 # Round corners & gaps
 for_window [class="^.*"] border pixel 0
