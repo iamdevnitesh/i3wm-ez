@@ -26,8 +26,8 @@ meson --buildtype=release . build
 ninja -C build
 sudo ninja -C build install
 
-# FEH & NUMLOCKX
-sudo dnf install feh numlockx -y
+# FEH , NUMLOCKX & XSETROOT
+sudo dnf install feh numlockx xsetroot -y
 
 # Replacing files
 mkdir $HOME/.config/i3
