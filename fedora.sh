@@ -30,8 +30,8 @@ sudo ninja -C build install
 sudo dnf install feh numlockx -y
 
 # Replacing files
-mkdir $HOME/Pictures/Wallpapers
-cp -r $HOME/Downloads/i3wm-ez/Wallpapers/ $HOME/Pictures/
+mkdir $HOME/.config/i3/gruvbox
+cp -r $HOME/Downloads/i3wm-ez/gruvbox/* $HOME/.config/i3/gruvbox/
 mkdir $HOME/.config/i3
 cp $HOME/Downloads/i3wm-ez/config/i3/config $HOME/.config/i3/config
 mkdir $HOME/.config/polybar
