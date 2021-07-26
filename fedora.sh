@@ -5,7 +5,7 @@ gsettings set org.gnome.desktop.default-applications.terminal exec kitty
 mkdir $HOME/.config/kitty
 cp $HOME/Downloads/i3wm-ez/config/kitty/kitty.conf $HOME/.config/kitty/kitty.conf
 
-# POLYBAR
+# POLYBAR/ Alternative way is to build from source
 sudo dnf install unifont-fonts -y
 sudo dnf install xorg-x11-apps -y
 sudo dnf install -y gcc-c++ clang git cmake @development-tools python3-sphinx python3-packaging
