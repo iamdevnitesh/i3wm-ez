@@ -14,7 +14,7 @@ Open Terminal
 
 ### STEP 3
 
-    git clone https://github.com/iamcodernitesh/i3wm-ez
+    git clone https://github.com/iamdevnitesh/i3wm-ez
 
 ### STEP 4
 
