@@ -18,15 +18,15 @@ Open Terminal
 
 ### STEP 4
 
-    cd i3wm-popOS
+    cd i3wm-ez
 
 ### STEP 5
 
-    sudo chmod +x launch.sh
+    sudo chmod +x popOS.sh
 
 ### STEP 6
 
-    ./launch.sh < 2
+    ./launch.sh
 
 <br>
 <br>
