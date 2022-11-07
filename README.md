@@ -26,7 +26,7 @@ Open Terminal
 
 ### STEP 6
 
-    ./launch.sh
+    ./popOS.sh
 
 <br>
 <br>
